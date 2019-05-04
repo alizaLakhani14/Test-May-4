@@ -1,0 +1,112 @@
+    #button-1 {
+        background-color: #c63928;
+        color: white;
+        height: 50px;
+        width: 200px;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        margin: 30px;
+    }
+    
+    #button-1:hover {
+        background-color: #ec4d50;
+        cursor: pointer;
+    }
+    
+    #button-2 {
+        height: 50px;
+        width: 100px;
+        border: 3px solid #3c6cee;
+        color: #6682c7;
+        background-color: #fdd835;
+        font-family: 'Gugi', cursive;
+        font-size: 20px;
+        margin: 30px;
+    }
+    
+    #button-2:hover {
+        background-color: #2a61fb;
+        border: none;
+        color: #fdd846;
+        cursor: pointer;
+    }
+    
+    #button-3 {
+        color: white;
+        height: 50px;
+        width: 150px;
+        background: #00C9FF;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #00C9FF, #92FE9D);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #00C9FF, #92FE9D);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border: none;
+        border-radius: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        margin: 30px;
+    }
+    
+    #button-3:hover {
+        cursor: pointer;
+    }
+    
+    #button-4 {
+        border: 3px solid #7458ec;
+        color: #9b8ff1;
+        background-color: white;
+        height: 50px;
+        width: 130px;
+        border-radius: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        margin: 30px;
+    }
+    
+    #button-4:hover {
+        border: none;
+        cursor: pointer;
+        background-color: #6749ea;
+        color: white;
+    }
+    
+    #button-5 {
+        height: 50px;
+        width: 200px;
+        border: 2px solid #f6ab42;
+        color: white;
+        border-radius: 10px;
+        background: #ffe259;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #ffe259, #ffa751);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #ffe259, #ffa751);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+        margin: 30px;
+    }
+    
+    #button-5:hover {
+        background-color: #f38e31;
+        cursor: pointer;
+    }
+    
+    #button-6 {
+        height: 50px;
+        width: 50px;
+        border-radius: 40px;
+        border: 2px solid #3ba3f3;
+        background-color: white;
+        margin: 30px;
+        color: #3ba3f3;
+    }
+    
+    #button-6:hover {
+        border: none;
+        color: white;
+        background-color: #37a1f3;
+        cursor: pointer;
+    }
