@@ -1,9 +1,66 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
 body{
     margin:0;
-    background-color:  background: #00c9ff; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #00c9ff, #92fe9d); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #00c9ff, #92fe9d);
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
+form{
+
+    border: 1px solid #a09f9f;
+    display: inline-block;
+    background-color: #ace5d8;
+    border-radius: 5px;
+    box-shadow:1px 1px 6px 0.5px #777575;
+    padding: 1em;
+    width:400px;
+}
+
 label{
-    color:#607d8b;
+    display: block;
+    text-align: left;
+    margin-top:8px ;
+    margin-bottom: 2px;
+    color: #194563;
+    font-weight: 500px;
 }
+ input{
+    width: 95%;
+    color: #756d6d;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #0000004a;
+}
+
+button{
+    padding: 10px 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #43a7bb;
+    border-radius: 5px;
+    color: white;
+   
+}
+.buttons{
+    text-align: left;
+}
+
+input:focus{
+    background-color: #f4fdeb;
+}
+ button:hover{
+     background-color: #82bd40;
+     cursor: pointer;
+ }
+
